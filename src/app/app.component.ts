@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterOutlet } from '@angular/router';
-import { CommonModule } from '@angular/common'; // Importa CommonModule
+import { CommonModule } from '@angular/common'; 
 import { ElementoService, Elemento } from './servicios/elemento.service';
 
 @Component({
@@ -9,8 +9,8 @@ import { ElementoService, Elemento } from './servicios/elemento.service';
   standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [RouterOutlet, HttpClientModule, CommonModule], // Incluye CommonModule aquí
-  providers: [ElementoService] // Agrega el servicio aquí como proveedor
+  imports: [RouterOutlet, HttpClientModule, CommonModule], 
+  providers: [ElementoService] 
 })
 export class AppComponent implements OnInit {
   title = 'API Consumida';
@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.elementoService.obtenerElementos().subscribe(
       (data) => {
-        console.log('Datos recibidos:', data); // Verifica si se reciben datos
+        console.log('Datos recibidos:', data); 
         this.elementos = data;
       },
       (error) => {
