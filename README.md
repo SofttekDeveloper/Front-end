@@ -2,6 +2,12 @@
 
 Este proyecto consta de un **backend** desarrollado en **Laravel** y un **frontend** en **Angular**. El backend proporciona una API que el frontend consume para mostrar una lista de elementos.
 
+## Repositorio
+
+Puedes encontrar el código fuente del backend en el siguiente repositorio de GitHub:
+
+[APIBACKEND - GitHub](https://github.com/JCUSDeveloper/APIBACKEND.git)
+
 ## Requisitos Previos
 
 - **Node.js** (versión más reciente)
