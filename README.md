@@ -6,7 +6,7 @@ Este proyecto consta de un **backend** desarrollado en **Laravel** y un **fronte
 
 Puedes encontrar el código fuente del frontend en el siguiente repositorio de GitHub:
 
-[Back-end - GitHub](https://github.com/Softtek/Back-end.git)
+[Back-end - GitHub](https://github.com/Softtek/Back-End.git)
 
 ## Requisitos Previos
 
